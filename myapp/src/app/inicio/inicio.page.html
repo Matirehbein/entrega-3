@@ -1,0 +1,60 @@
+
+<ion-content class="ivan">
+  <ion-toolbar color="black">
+
+    <img src="../../assets/icon/Logo_DuocUC.svg.png" width="400px" class="logo">
+
+    <br><br>
+    <div class="subtitulo">¡Bienvenido!</div> 
+    
+    <div class="cerrars">
+    <a  (click)="irASesion()" class="ion-button ion-button-full ion-text-right" style="color: black;">Cerrar sesión</a>
+    </div>
+</ion-toolbar>
+  <ion-avatar class="avatar">
+    <img alt="Silhouette of a person's head" src="../../assets/icon/itomiku.jpg" />
+    <h1><p class="image-text" style="color: black;">{{user.usuario}}</p></h1>
+    
+  </ion-avatar>
+  <ion-button (click)="escanearQR()">Escanear QR</ion-button>
+  <ion-button  (click)="generarCodigoQR()">Generar Código QR</ion-button>
+  <div *ngIf="codigoQR">
+    <img [src]="codigoQR" alt="Código QR generado">
+  </div>
+
+
+
+  
+  <ion-accordion-group class="mitarjeta">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Aplicaciones moviles</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content"> Asistencia <br> 100%</div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Calidad de Sofware</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Asistencia <br> 75%</div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="light">
+        <ion-label>Estadistica Descriptiva </ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Asistencia <br> 88%</div>
+    </ion-accordion>
+    <ion-accordion value="four">
+      <ion-item slot="header" color="light">
+        <ion-label>Ingles Intermedio</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content"> Asistencia <br> 93%</div>
+    </ion-accordion>
+    <ion-accordion value="fith">
+      <ion-item slot="header" color="light">
+        <ion-label>Arquitectura</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content"> Asistencia <br> 83%</div>
+    </ion-accordion>
+  </ion-accordion-group>
+  

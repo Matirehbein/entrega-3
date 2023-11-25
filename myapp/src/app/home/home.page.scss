@@ -1,0 +1,80 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  text-align: center; /* Para centrar el contenido en la página */
+}
+
+
+.contenedor {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 300px;
+
+}
+
+
+
+ion-content.ivan {
+  --background:  url('../../assets/icon/paisaje.jpg') ;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+}
+
+ion-card {
+  margin-top: 50px; 
+  
+}
+
+ion-button {
+  margin-top: 130px;
+
+}
+
+.subtitulo {
+  font-size: 13px; /* Puedes ajustar el valor según tus necesidades */
+}
+
+.mitarjeta {
+  background-color: rgb(69, 69, 139); /* Puedes ajustar el color según tus preferencias */
+ margin-top: 10px;
+  color: rgb(119, 101, 101); /* Cambiar el color del texto para que sea legible */
+}
+
+
+/* Centrar la imagen en el contenido */
+.noticia{
+  display: block;
+  margin: 0 auto; /* Centrar horizontalmente */
+  text-align: center; /* Alinear el contenido en el centro verticalmente */
+  width: 420px;
+  margin-top: 100px;
+}

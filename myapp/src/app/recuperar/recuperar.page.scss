@@ -1,0 +1,59 @@
+#container {
+    text-align: center;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #container strong {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #container p {
+    font-size: 16px;
+    line-height: 22px;
+  
+    color: #8c8c8c;
+  
+    margin: 0;
+  }
+  
+  #container a {
+    text-decoration: none;
+  }
+  
+  ion-content.ivan {
+    text-align: center; /* Para centrar el contenido en la página */
+  }
+  
+  
+  .contenedor {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 300px;
+  
+  }
+  
+  
+  
+  
+  
+  ion-content.ivan {
+    --background: url('../../assets/icon/paisaje.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ion-input {
+  --ion-input-font-size: 100px;
+
+}
+
+

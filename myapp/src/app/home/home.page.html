@@ -1,0 +1,29 @@
+<ion-content class="ivan">
+<ion-header>
+  <ion-toolbar color="black">
+
+      <img src="../../assets/icon/Logo_DuocUC.svg.png" width="400px" class="logo">
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-card #card color="tertiary">
+  <ion-card-header>
+    <ion-card-title class="ion-text-center">
+      ¡Bienvenido!
+      <div class="subtitulo">portal de asistencia</div>
+
+    </ion-card-title>
+        </ion-card-header>
+        <img src="../../assets/icon/noticiasduoc.jpg" width="200px" class="noticia">
+
+        <ion-button  (click)="play()" style="--color: rgb(20, 4, 114); --border-width: 2px;">Siguiente </ion-button>
+        <ion-button  (click)="stop()" style="--color: rgb(20, 4, 114); --border-width: 2px;">Anterior</ion-button>
+    </ion-card>
+  
+  
+  <ion-button color="tertiary" expand="" (click)="redirectToLogin()">
+    Iniciar sesion
+  </ion-button>
+</ion-content>
